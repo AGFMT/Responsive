@@ -1,0 +1,113 @@
+.sidebar-parent {
+    width: 300px;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .user-parent img {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .name-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+  
+  .dashboard-options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .dashboard-options button {
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 1px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid beige;
+    transition: background-color 0.3s;
+  }
+  
+  .dashboard-options button:hover {
+    background-color: #738ac4;
+  }
+  
+  .dashboard-options button:active {
+    background-color: #654bcc;
+  }
+  
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .sidebar-parent {
+        width: 100%;
+    }
+    .dashboard-options {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    .dashboard-options button {
+        width: 50%;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 1px;
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 75%;
+        border: 1px solid beige;
+        transition: background-color 0.3s;
+    }
+  }
+ 
+  @media only screen and (max-width: 767px) {
+    .sidebar-parent {
+      width: 100%;
+    }
+  
+    .user-parent img {
+      width: 80px;
+    }
+  
+    .name-block {
+      column-gap: 5px;
+    }
+  
+    .dashboard-options button {
+        width: 70%;
+        justify-content: space-between;
+    }
+    .dashboard-options {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+  }
+  

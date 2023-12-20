@@ -1,0 +1,44 @@
+{
+    "products": [
+      {
+        "name": "Basic",
+        "regularPrice": 89.99,
+        "offerPrice": 9.99,
+        "userLimit": 50,
+        "storageLimit": "100 GB",
+        "support": {
+          "email": true,
+          "chat": false,
+          "whatsapp": false
+        },
+        "color": "#ffcc00"  
+      },
+      {
+        "name": "Standard",
+        "regularPrice": 189.99,
+        "offerPrice": 99.99,
+        "userLimit": 200,
+        "storageLimit": "500 GB",
+        "support": {
+          "email": true,
+          "chat": true,
+          "whatsapp": false
+        },
+        "color": "#3366cc"  
+      },
+      {
+        "name": "Premium",
+        "regularPrice": 389.99,
+        "offerPrice": 199.99,
+        "userLimit": 500,
+        "storageLimit": "1 TB",
+        "support": {
+          "email": true,
+          "chat": true,
+          "whatsapp": true
+        },
+        "color": "#cc0033" 
+      }
+    ]
+  }
+    
